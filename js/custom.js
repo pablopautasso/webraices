@@ -134,9 +134,10 @@ wow = new WOW({
 wow.init();
 
 
-//alert("gola mundo");
+alert("gola mundo");
 
 
+/*
 
 document.getElementById('').onclick = function() {
     var section = document.createElement('section');
@@ -146,3 +147,4 @@ document.getElementById('').onclick = function() {
     section.className = 'wow lightSpeedIn';
     this.parentNode.insertBefore(section, this);
 };
+*/
