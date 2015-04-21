@@ -411,14 +411,15 @@
                     </ul>
                 </div>
                 <div class="col-lg-8 wow fadeInLeft delay-06s">
-                    <div class="form" name="fcontacto" id="fcontacto">
+                    <form method="POSt" name="fcontacto" id="fcontacto" action="./">
+                    <div class="form">
                         <input class="input-text" type="text" name="nombre" id="nombre" value="Nombre Completo *"
                                onFocus="if(this.value==this.defaultValue)this.value='';"
                                onBlur="if(this.value=='')this.value=this.defaultValue;">
-                        <input class="input-text" type="text" name="email" id="email" value="email *"
+                        <input class="input-text" type="text" name="email" id="email" value="Email *"
                                onFocus="if(this.value==this.defaultValue)this.value='';"
                                onBlur="if(this.value=='')this.value=this.defaultValue;">
-                        <input class="input-text" type="text" name="telefono" id="telefono" value="telefono *"
+                        <input class="input-text" type="text" name="asunto" id="asunto" value="Asunto... *"
                                onFocus="if(this.value==this.defaultValue)this.value='';"
                                onBlur="if(this.value=='')this.value=this.defaultValue;">
                         <textarea class="input-text text-area" name="mensaje" id="mensaje" cols="0" rows="0"
@@ -427,7 +428,7 @@
                         <input class="input-btn" type="submit" value="Enviar Mensaje">
 
                         <div id="respuesta" style="display: none"></div>
-
+                    </form>
                     </div>
                 </div>
             </div>
